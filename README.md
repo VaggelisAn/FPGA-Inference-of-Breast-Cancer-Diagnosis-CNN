@@ -1,6 +1,6 @@
 
 ## Compressed NN Implementation for Low Power Medical Imaging	
-Vaggelis Ananiadis, Supervisor: Prof. Karakonstantis G.
+Ananiadis Vaggelis, Supervisor: Prof. Karakonstantis G.
 ECE-284 - Processor Design	
 
 ```
