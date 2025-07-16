@@ -35,12 +35,19 @@ Directory structure:
 			
 The original dataset can be found on: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
 
-How to use:
-Create a conda environment: conda create -n hls4ml_env python=3.10
-Activate conda environment: conda activate hls4ml_env
-Install package dependencies: pip install -r requirements.txt
+How to use:  
+
+Create a conda environment: conda create -n hls4ml_env python=3.10  
+
+Activate conda environment: conda activate hls4ml_env  
+
+Install package dependencies: pip install -r requirements.txt  
+
 Open jupyter: jupyter notebook
+
 Select optimized.ipynb to check the architecture, training and HLS compilation code.
+
 Select dataset_preprocessing.ipynb to check the dataset generation code.
+
 Note that a Vitis installation is required for the HLS synthesis. Use Vitis >= 2023.2.
 
