@@ -1,38 +1,37 @@
-###############################################################
-##  Compressed NN Implementation 							 ##
-##    for Low Power Medical Imaging							 ##
-##  Vaggelis Ananiadis, Supervisor: Prof. Karakonstantis G.  ##
-##  ECE-284 - Processor Design								 ##
-###############################################################
 
+## Compressed NN Implementation for Low Power Medical Imaging	
+Vaggelis Ananiadis, Supervisor: Prof. Karakonstantis G.
+ECE-284 - Processor Design	
+
+```
 Directory structure:
 └───pd_project
     │   dataset_preprocessing.ipynb	# dataset_preprocessing.ipynb prepares the dataset by augmenting the dataset 
-	│								# and storing the training, validation and testing .npy files.
-    │   optimized.ipynb 			# contains the model architecture, model training and HLS compilation.
+    │					# and storing the training, validation and testing .npy files.
+    │   optimized.ipynb 		# contains the model architecture, model training and HLS compilation.
     │   README.md					
-    │   requirements.txt 			# packages that need to be installed
+    │   requirements.txt 		# packages that need to be installed
     │
     ├───common	
-    │       callbacks.py			# custom callback functions from hls4ml tutorials
-    │       custom_plotting.py		# custom plotting functions from hls4ml tutorials
+    │   	callbacks.py		# custom callback functions from hls4ml tutorials
+    │   	custom_plotting.py	# custom plotting functions from hls4ml tutorials
     │
     └───dataset
-	        grayscale_dataset.py	# tool used to convert dataset to grayscale
-		    X_test_8.npy	
-            X_test_16.npy
-            X_test_32.npy
-            X_train_8.npy
-            X_train_16.npy
-            X_train_32.npy
-			X_val_8.npy
-            X_val_16.npy
-            X_val_32.npy
-            y_test.npy
-            y_train.npy
-            y_val.npy
-            classes.npy
-			
+		grayscale_dataset.py	# tool used to convert dataset to grayscale
+		X_test_8.npy	
+	        X_test_16.npy
+	        X_test_32.npy
+	        X_train_8.npy
+		X_train_16.npy
+	        X_train_32.npy
+		X_val_8.npy
+	        X_val_16.npy
+	        X_val_32.npy
+	        y_test.npy
+	        y_train.npy
+	        y_val.npy
+		classes.npy
+```		
 			
 The original dataset can be found on: https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
 
